@@ -1,2 +1,11 @@
 "use strict";
-console.log("hello");
+Object.defineProperty(exports, "__esModule", { value: true });
+var less13__1 = require("./modules/less13\u6A21\u5757");
+console.log(less13__1.dbUrl);
+less13__1.getData();
+less13__1.saveData();
+var less14____1 = require("./modules/less14\u547D\u540D\u7A7A\u95F4");
+var s = new less14____1.A.Student('lele');
+s.eat();
+var c = new less14____1.A.Child('xixi');
+c.eat();
